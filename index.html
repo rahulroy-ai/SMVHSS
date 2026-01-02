@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Michael's VHSE Kumbalam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>St. Michael's <span>VHSE</span></h1>
+                <p>Kumbalam, Kollam | Estd. 1985</p>
+            </div>
+            <nav>
+                <ul id="menu-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#faculty">Teachers</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+                </ul>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">Admissions Open 2025-26</span>
+            <h1 class="animate-text">Shape Your Future at <br> St. Michael's Vocational Higher Secondary School</h1>
+            <p class="animate-text delay-1">Excellence in Vocational & General Education since 1985.</p>
+            <div class="hero-buttons animate-text delay-2">
+                <a href="#courses" class="btn-primary">Explore Courses</a>
+                <a href="#contact" class="btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-wrapper">
+                
+                <div class="about-text">
+                    <span class="sub-heading">Vocational Excellence</span>
+                    <h2 class="section-title-left">More Than Just a Degree <br> <span style="color:var(--secondary-color);">Real World Skills</span></h2>
+                    
+                    <p class="lead-text">At St. Michael's VHSE, we bridge the gap between education and employment. Unlike traditional schools, our curriculum integrates academic learning with professional skill training aligned with the <strong>NSQF (National Skills Qualifications Framework)</strong>.</p>
+                    
+                    <p>We specialize in two core industry sectors: <strong>Medical Laboratory Technology</strong> and <strong>Information Technology</strong>. Our students graduate not just with a Plus-Two certificate, but with industry-recognized credentials and mandatory On-the-Job Training (OJT).</p>
+
+                    <ul style="list-style: none; margin: 20px 0; font-weight: 500; color: #444;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-right: 10px;"></i> Mandatory On-Job Training (OJT)</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-right: 10px;"></i> NSQF Level 4 Certification</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--secondary-color); margin-right: 10px;"></i> Direct Link to Professional Colleges</li>
+                    </ul>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>OJT Completion</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2</h3>
+                            <p>Core Trades (MLT/CS)</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>NSQF</h3>
+                            <p>Certified</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image-stack badge-only-container">
+                    <div class="exp-badge">
+                        <span class="years">Job</span>
+                        <span class="text">Ready<br>Education</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Courses Offered</h2>
+            <div class="course-grid">
+                
+                <div class="course-card">
+                    <i class="fas fa-laptop-code icon"></i>
+                    <h3>JSD</h3>
+                    <p style="font-weight: bold; color: var(--primary-color); margin-bottom: 10px;">Junior Software Developer</p>
+                    <p>Focuses on core programming, software testing, and modern application development life cycles.</p>
+                    <span class="tag">VHSE Stream</span>
+                </div>
+
+                <div class="course-card">
+                    <i class="fas fa-flask icon"></i>
+                    <h3>LTPM</h3>
+                    <p style="font-weight: bold; color: var(--primary-color); margin-bottom: 10px;">Lab Technician Pharma Biologics & Medical Devices</p>
+                    <p>Specialized training in pharmaceutical biologics, wet lab procedures, and handling medical devices.</p>
+                    <span class="tag">VHSE Stream</span>
+                </div>
+
+                <div class="course-card">
+                    <i class="fas fa-book-open icon"></i>
+                    <h3>High School (5-10)</h3>
+                    <p style="font-weight: bold; color: var(--primary-color); margin-bottom: 10px;">General Education</p>
+                    <p>Comprehensive state syllabus education for Upper Primary and High School students.</p>
+                    <span class="tag">General</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Our Facilities</h2>
+            <div class="facilities-grid">
+                <div class="facility">
+                    <i class="fas fa-book"></i>
+                    <h4>Library</h4>
+                    <p>Over 1200 books available.</p>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-desktop"></i>
+                    <h4>Computer Lab</h4>
+                    <p>Modern lab with 10+ systems.</p>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-futbol"></i>
+                    <h4>Playground</h4>
+                    <p>Spacious ground for sports.</p>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Smart Classrooms</h4>
+                    <p>Electricity powered learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faculty" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Faculty</h2>
+            <div class="teacher-grid">
+                
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Salat+Reetha+F&background=0D8ABC&color=fff&size=128" alt="Principal">
+                    <h3>Salat Reetha F</h3>
+                    <p class="designation">Principal</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=S+Mary+Femeela&background=random&size=128" alt="Teacher">
+                    <h3>S. Mary Femeela</h3>
+                    <p class="designation">NVT in Biology</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Beril+Das+Y&background=random&size=128" alt="Teacher">
+                    <h3>Beril Das Y</h3>
+                    <p class="designation">NVT in Maths</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Saroja+Zacharia&background=random&size=128" alt="Teacher">
+                    <h3>Saroja Zacharia</h3>
+                    <p class="designation">NVT in English</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Pious+A&background=random&size=128" alt="Teacher">
+                    <h3>Pious A</h3>
+                    <p class="designation">NVT in GFC</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Edwin+Alex&background=random&size=128" alt="Teacher">
+                    <h3>Edwin Alex</h3>
+                    <p class="designation">VI in MLT</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Sunil+Kumar+Y&background=random&size=128" alt="Teacher">
+                    <h3>Sunil Kumar Y</h3>
+                    <p class="designation">VI in CSIT</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Andrew+Aristotle&background=random&size=128" alt="Teacher">
+                    <h3>Andrew Aristotle</h3>
+                    <p class="designation">Voc Tr in CSIT</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Jessy+Varghese&background=random&size=128" alt="Teacher">
+                    <h3>Jessy Varghese</h3>
+                    <p class="designation">Voc Tr in MLT</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Amaya+J+Y&background=random&size=128" alt="Teacher">
+                    <h3>Amaya J Y</h3>
+                    <p class="designation">LTA in MLT</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Sunil+Jose+B&background=random&size=128" alt="Teacher">
+                    <h3>Sunil Jose B</h3>
+                    <p class="designation">LTA in CSIT</p>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://ui-avatars.com/api/?name=Heleena+V&background=random&size=128" alt="Teacher">
+                    <h3>Heleena V</h3>
+                    <p class="designation">Guest Faculty</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="gallery-grid">
+                <img src="01.png" alt="Event 1">
+                <img src="02.png" alt="Event 2">
+                <img src="03.png" alt="Event 3">
+                <img src="04.png" alt="Event 4">
+                <img src="05.png" alt="Event 5">
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+        
+        <span class="close-btn" onclick="closeLightboxBtn()">
+            <i class="fas fa-times"></i>
+        </span>
+        
+        <div class="nav-btn prev" onclick="changeSlide(-1, event)">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        
+        <img id="lightbox-img" src="" alt="Full Image">
+        
+        <div class="nav-btn next" onclick="changeSlide(1, event)">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+
+    </div>
+
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white">Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Kumbalam, Mulavana P.O,<br>Kundara, Kollam, Kerala - 691503</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>0474-2527277</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>st.michaels_vhss@yahoo.co.in</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5"></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 St. Michael's VHSE Kumbalam. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
